@@ -9,7 +9,6 @@ from Bio.SeqUtils import MeltingTemp as mt
 from Bio.Seq import Seq
 import re
 
-print("sup")
 
 parser=argparse.ArgumentParser(description="Create primers from Sequences")
 parser.add_argument('-i', "--inp", metavar="csv_file", help="Sequence input file" , type=str, required=True)
